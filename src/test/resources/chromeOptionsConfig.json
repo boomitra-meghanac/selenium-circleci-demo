@@ -1,0 +1,39 @@
+{
+  "options": {
+    "args": [
+      "--headless",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--window-size=1920,1080",
+      "--disable-extensions",
+      "--disable-web-security",
+      "--ignore-certificate-errors",
+      "--allow-running-insecure-content",
+      "--disable-background-timer-throttling",
+      "--disable-backgrounding-occluded-windows",
+      "--disable-renderer-backgrounding",
+      "--disable-features=TranslateUI",
+      "--disable-ipc-flooding-protection",
+      "--remote-debugging-port=9222",
+      "--start-maximized",
+      "--disable-popup-blocking"
+    ],
+    "experimentalOptions": {
+      "useAutomationExtension": false,
+      "excludeSwitches": ["enable-automation"]
+    },
+    "prefs": {
+      "credentials_enable_service": false,
+      "profile.password_manager_enabled": false,
+      "profile.default_content_setting_values.notifications": 2,
+      "profile.default_content_settings.popups": 0,
+      "profile.default_content_setting_values.automatic_downloads": 1,
+      "autofill.profile_enabled": false,
+      "autofill.enabled": false,
+      "autofill.address_enabled": false,
+      "autofill.credit_card_enabled": false,
+      "profile.managed_default_content_settings.images": 2
+    }
+  }
+}

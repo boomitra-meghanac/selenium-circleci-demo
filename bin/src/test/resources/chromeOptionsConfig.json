@@ -1,0 +1,22 @@
+{
+  "options": {
+    "args": [
+      "--start-maximized",
+      "--disable-popup-blocking"
+    ],
+    "experimentalOptions": {
+      "excludeSwitches": ["enable-automation"],
+      "useAutomationExtension": false
+    },
+    "prefs": {
+      "credentials_enable_service": false,
+      "profile.password_manager_enabled": false,
+      "profile.default_content_setting_values.notifications": 2,
+      "profile.default_content_setting_values.automatic_downloads": 1,
+      "autofill.profile_enabled": false,
+      "autofill.enabled": false,
+      "autofill.address_enabled": false,
+      "autofill.credit_card_enabled": false
+    }
+  }
+}
