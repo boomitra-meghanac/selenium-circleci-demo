@@ -7,10 +7,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install Maven dependencies
+          name: Install dependencies
           command: mvn install -DskipTests
       - run:
-          name: Run Selenium tests
+          name: Run Selenium Tests
           command: mvn test
 
 workflows:
