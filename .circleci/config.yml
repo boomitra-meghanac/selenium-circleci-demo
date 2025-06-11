@@ -3,18 +3,18 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: cimg/openjdk:17.0  # or 11.0, depending on your Java version
+      - image: cimg/openjdk:17.0
     steps:
       - checkout
       - run:
-          name: Install dependencies
+          name: Install Maven dependencies
           command: mvn install -DskipTests
       - run:
-          name: Run Selenium Tests
+          name: Run Selenium tests
           command: mvn test
 
 workflows:
   version: 2
-  test-workflow:
+  run-tests:
     jobs:
       - test
